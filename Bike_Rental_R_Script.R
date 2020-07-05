@@ -3,7 +3,7 @@
 rm(list = ls())
 
 #setting working directory
-setwd("D:/Learning/edwisor Data Science/Final Project 1 Submission/Final Delivery Project 1")
+setwd("D:/Learning/Project_1/BikeRental")
 
 #get working directory
 getwd()
