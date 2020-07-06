@@ -13,9 +13,9 @@
 8. weekday: Day of the week
 9. workingday: If day is neither weekend nor holiday is 1, otherwise is 0.
 10. weathersit: (extracted fromFreemeteo)
-1: Clear, Few clouds, Partly cloudy, Partly cloudy
-2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+   1: Clear, Few clouds, Partly cloudy, Partly cloudy
+   2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+   3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
 11. temp: Normalized temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (only in hourly scale)
 12. atemp: Normalized feeling temperature in Celsius. The values are derived via(t-t_min)/(t_maxt_min), t_min=-16, t_max=+50 (only in hourly scale)
@@ -25,14 +25,15 @@
 16. registered: count of registered users
 17. cnt: count of total rental bikes including both casual and registered
 
-### Data phases of project
-1. Exploratory Data Analysis
-   a. Missing Value Analysis
-   b. Outlier Analysis
-   c. Feature Selection
-   d. Feature Scaling
-2. Splitting train and test dataset in 80:20 ratio
-3. Applying below model on our processed dataset
-   a. Decision Tree Regressor
-   b. Random Forest Regressor
-   c. Linear Regression
+### Phases of project
+
+- Exploratory Data Analysis
+   - Missing Value Analysis
+   - Outlier Analysis
+   - Feature Selection
+   - Feature Scaling
+- Splitting train and test dataset in 80:20 ratio
+- Applying various model on our processed dataset
+    - Decision Tree Regressor
+    - Random Forest Regressor
+    - Linear Regression
