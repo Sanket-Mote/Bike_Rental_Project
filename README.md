@@ -1,7 +1,7 @@
 
 ## The objective of this Case is to Predication of bike rental count on daily based on the environmental and seasonal settings.
 
-#### The details of data attributes in the dataset are as follows -
+### The details of data attributes in the dataset are as follows -
 
 1. instant: Record index
 2. dteday: Date
@@ -25,3 +25,14 @@
 16. registered: count of registered users
 17. cnt: count of total rental bikes including both casual and registered
 
+### Data phases of project
+1. Exploratory Data Analysis
+   a. Missing Value Analysis
+   b. Outlier Analysis
+   c. Feature Selection
+   d. Feature Scaling
+2. Splitting train and test dataset in 80:20 ratio
+3. Applying below model on our processed dataset
+   a. Decision Tree Regressor
+   b. Random Forest Regressor
+   c. Linear Regression
