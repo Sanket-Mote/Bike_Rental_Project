@@ -43,7 +43,5 @@
 |Model | MAPE | RMSE |SELECTED 
 |---|---|---|---|
 |Decision Tree Regressor | 17.34 | 742.50 | |
-|----|----|----|----|
 |Random Forest Regressor| 13.51 | 565.70 | Selected |
-|----|----|----|----|
 |Linear Regression| 30.66 | 1316.98 | |
