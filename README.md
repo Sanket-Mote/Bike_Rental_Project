@@ -37,3 +37,13 @@
     - Decision Tree Regressor
     - Random Forest Regressor
     - Linear Regression
+- Hyper Parameter Tuning
+- Validation metrics used to check accuracy of model is Mean Absolute Error (MAE) and Root Mean Square Error (RMSE)
+
+|Model | MAPE | RMSE |SELECTED 
+|---|---|---|---|
+|Decision Tree Regressor | 17.34 | 742.50 | |
+|----|----|----|----|
+|Random Forest Regressor| 13.51 | 565.70 | Selected |
+|----|----|----|----|
+|Linear Regression| 30.66 | 1316.98 | |
