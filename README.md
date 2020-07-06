@@ -3,8 +3,10 @@
 The objective of this Case is to Predication of bike rental count on daily based on the environmental and seasonal settings.
 
 The details of data attributes in the dataset are as follows
+
 1.instant: Record index
 2.dteday: Date
+
 3.season: Season (1:springer, 2:summer, 3:fall, 4:winter)
 4.yr: Year (0: 2011, 1:2012)
 5.mnth: Month (1 to 12)
