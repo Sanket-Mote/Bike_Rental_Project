@@ -40,8 +40,10 @@
 - Hyper Parameter Tuning
 - Validation metrics used to check accuracy of model is Mean Absolute Error (MAE) and Root Mean Square Error (RMSE)
 
-|Model | MAPE | RMSE |SELECTED 
+|Model | MAPE | RMSE |SELECTED |
 |---|---|---|---|
 |Decision Tree Regressor | 17.34 | 742.50 | |
-|Random Forest Regressor| 13.51 | 565.70 | Selected |
+|Random Forest Regressor| 13.51 | 565.70 | Yes |
 |Linear Regression| 30.66 | 1316.98 | |
+
+### As the MAPE score of Random forest is good as compared to other models, Random Forest Regressor is finalized for the given dataset
